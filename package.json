@@ -5,7 +5,7 @@
   "module": "dist/main.js",
   "license": "MIT",
   "scripts": {
-    "start": "export PORT=8080 ENV=PRODUCTON && node dist/main.js",
+    "start": "export PORT=5000 ENV=PRODUCTON && node dist/main.js",
     "dev": "export PORT=5000 && nodemon --watch \"src/\" --exec \"ts-node src/main\" -e ts",
     "build:watch": "tsc --watch",
     "build": "yarn build:clean && tsc",
