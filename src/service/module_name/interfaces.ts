@@ -1,6 +1,7 @@
 export interface IState {
   nome: string;
   uf: string;
+  populacao?: string | number;
 }
 
 export interface IStates {
